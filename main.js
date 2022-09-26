@@ -1097,4 +1097,12 @@
     stagger: 125,
     replay: false,
   });
+  onvisible.add(".intro.card1", {
+    style: "fade-left",
+    speed: 1000,
+    intensity: 2,
+    delay: 0,
+    stagger: 125,
+    replay: false,
+  });
 })();

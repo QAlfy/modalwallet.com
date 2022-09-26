@@ -749,6 +749,10 @@ p.style2 span.p:nth-child(n + 2) {
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
 }
+.image.style1 {
+  background-size: cover;
+  background-position: center center;
+}
 .image.style1:not(:first-child) {
   margin-top: 8rem !important;
 }
