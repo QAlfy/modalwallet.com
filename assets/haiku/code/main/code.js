@@ -4,13 +4,13 @@ var _code_bob_code = require("./../bob/code.js");
 var _code_alice_code = require("./../alice/code.js");
 module.exports = {
   metadata: {
+    uuid: "HAIKU_SHARE_UUID",
     version: "0.0.0",
-    username: "user@haiku.ai",
     organization: "Haiku",
     project: "modal",
     branch: "master",
     folder: "/home/nico/Documents/modal",
-    uuid: "HAIKU_SHARE_UUID",
+    username: "user@haiku.ai",
     root: "HAIKU_CDN_PROJECT_ROOT",
     core: "5.1.2",
     title: "Main",
@@ -22,43 +22,54 @@ module.exports = {
   eventHandlers: {},
   timelines: {
     Default: {
+      "haiku:Main-03757d2ca1026e0a": {
+        "style.WebkitTapHighlightColor": "rgba(0,0,0,0)",
+        "style.position": "relative",
+        "style.overflowX": "hidden",
+        "style.overflowY": "hidden",
+        "sizeAbsolute.x": 640,
+        "sizeAbsolute.y": 480,
+        "sizeMode.x": 1,
+        "sizeMode.y": 1,
+        "sizeMode.z": 1,
+        "style.backgroundColor": {
+          "0": { value: "#000", edited: true },
+          "39333": { value: "#000", edited: true }
+        }
+      },
       "haiku:Path-50b782a78a79b998": {
         d:
           "M260.308,263.006h-7.545c-4.465,0-8.083-3.618-8.083-8.083s3.618-8.084,8.083-8.084h7.545\r\n\t\tc4.465,0,8.085,3.62,8.085,8.084S264.772,263.006,260.308,263.006z",
         fill: "#FFFFFF"
       },
-      "haiku:Path-faea9df3bc3428bf": {
-        d:
-          "M183.781,263.006h-7.545c-4.465,0-8.085-3.618-8.085-8.083s3.621-8.084,8.085-8.084h7.545\r\n\t\tc4.465,0,8.083,3.62,8.083,8.084S188.246,263.006,183.781,263.006z",
-        fill: "#FFFFFF"
-      },
       "haiku:Bob-f881ee4c2535f493": {
+        "sizeAbsolute.y": 100,
         "style.position": "absolute",
-        "translation.x": {
-          "0": { value: 438, edited: true },
-          "4267": { value: 438, edited: true }
-        },
         "style.padding": "0",
         "style.border": "0",
         "sizeMode.x": 1,
         "sizeMode.y": 1,
         "sizeAbsolute.x": 100,
         "style.margin": "0",
-        "sizeAbsolute.y": 100,
+        "translation.x": {
+          "0": { value: 533, edited: true, curve: "easeInOutQuad" },
+          "2567": { value: 533.5, edited: true, curve: "easeInQuart" },
+          "4267": { value: 545.5 }
+        },
         "translation.y": {
-          "0": { value: 212, edited: true },
-          "4267": {
-            value: 212,
-            edited: true,
-            curve: [0.54, 0.83, 0.755, 0.315]
+          "0": { value: 237, edited: true, curve: "easeInOutQuad" },
+          "2567": {
+            value: 237.50201416015625,
+            curve: "easeInQuart",
+            edited: true
           },
-          "5567": { value: 107 }
+          "4267": { value: 105.45501708984375, edited: true }
         },
         "origin.x": 0.63,
         "origin.y": 0.77,
         "style.zIndex": { "0": { value: 2, edited: true } },
         opacity: {
-          "0": { value: 0, edited: true },
+          "0": { value: 0, edited: true, curve: "easeInOutQuad" },
           "2350": { value: 0, edited: true, curve: [0.95, 0.05, 0.655, 0.25] },
           "2500": { value: 1, edited: true }
         },
@@ -66,8 +77,8 @@ module.exports = {
         "scale.y": 1
       },
       "haiku:Layer-1-Cake-4d555ea7e02ff517": {
+        x: "0px",
         y: "0px",
-        "sizeMode.x": 1,
         viewBox: "0 0 512 512",
         "xml:space": "preserve",
         enableBackground: "new 0 0 512 512",
@@ -75,7 +86,7 @@ module.exports = {
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
-        x: "0px",
+        "sizeMode.x": 1,
         "sizeMode.y": 1,
         "sizeAbsolute.x": 512,
         "sizeAbsolute.y": 512,
@@ -142,26 +153,23 @@ module.exports = {
         fill: "#FFFFFF"
       },
       "haiku:Alice-440ec2010c54d918": {
+        "translation.x": {
+          "0": { value: 98.873, edited: true },
+          "2683": { value: 98.873, edited: true, curve: "easeInQuart" },
+          "4267": { value: 98.50201416015625 }
+        },
         "style.position": "absolute",
-        "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
         "sizeMode.x": 1,
         "sizeMode.y": 1,
         "sizeAbsolute.x": "auto",
         "sizeAbsolute.y": "auto",
-        "translation.x": {
-          "0": { value: 99.502, edited: true },
-          "4267": { value: 99.502, edited: true }
-        },
+        "style.margin": "0",
         "translation.y": {
-          "0": { value: 200.00000000000003, edited: true },
-          "4267": {
-            value: 200.00000000000003,
-            edited: true,
-            curve: [0.405, 0.445, 0.265, 0.755]
-          },
-          "5567": { value: 317, edited: true }
+          "0": { value: 221, edited: true },
+          "2683": { value: 221, edited: true, curve: "easeInQuart" },
+          "4267": { value: 382.50201416015625 }
         },
         "origin.x": 0.5,
         "origin.y": 0.5,
@@ -185,20 +193,10 @@ module.exports = {
           "M218.273,239.293h-7.545c-4.465,0-8.083-3.62-8.083-8.084s3.618-8.083,8.083-8.083h7.545\r\n\t\tc4.465,0,8.085,3.618,8.085,8.083C226.359,235.674,222.738,239.293,218.273,239.293z",
         fill: "#FFFFFF"
       },
-      "haiku:Main-03757d2ca1026e0a": {
-        "style.WebkitTapHighlightColor": "rgba(0,0,0,0)",
-        "style.position": "relative",
-        "style.overflowX": "hidden",
-        "style.overflowY": "hidden",
-        "sizeAbsolute.x": 550,
-        "sizeAbsolute.y": 400,
-        "sizeMode.x": 1,
-        "sizeMode.y": 1,
-        "sizeMode.z": 1,
-        "style.backgroundColor": {
-          "0": { value: "#000", edited: true },
-          "39333": { value: "#000", edited: true }
-        }
+      "haiku:Path-faea9df3bc3428bf": {
+        d:
+          "M183.781,263.006h-7.545c-4.465,0-8.085-3.618-8.085-8.083s3.621-8.084,8.085-8.084h7.545\r\n\t\tc4.465,0,8.083,3.62,8.083,8.084S188.246,263.006,183.781,263.006z",
+        fill: "#FFFFFF"
       },
       "haiku:Path-055b42e544a85a27": {
         d:
@@ -248,16 +246,22 @@ module.exports = {
         enableBackground: "new"
       },
       "haiku:Clock-23c98d8771cf0034": {
+        "style.position": "absolute",
         "style.margin": "0",
-        "translation.x": 441.7,
         "style.padding": "0",
         "style.border": "0",
         "sizeMode.x": 1,
         "sizeMode.y": 1,
         "sizeAbsolute.x": 100,
         "sizeAbsolute.y": 100,
-        "style.position": "absolute",
-        "translation.y": 318.1979858398438,
+        "translation.x": {
+          "0": { value: 542, edited: true },
+          "5967": { value: 542 }
+        },
+        "translation.y": {
+          "0": { value: 382.502, edited: true },
+          "5967": { value: 382.502 }
+        },
         "origin.x": 0.5,
         "origin.y": 0.5,
         "style.zIndex": 4,
@@ -278,8 +282,8 @@ module.exports = {
         }
       },
       "haiku:Layer-1-Chef-6214dedd32e10597": {
+        y: "0px",
         "sizeMode.x": 1,
-        x: "0px",
         viewBox: "0 0 512.001 512.001",
         "xml:space": "preserve",
         enableBackground: "new 0 0 512.001 512.001",
@@ -287,12 +291,18 @@ module.exports = {
         "style.margin": "0",
         "style.padding": "0",
         "style.border": "0",
-        y: "0px",
+        x: "0px",
         "sizeMode.y": 1,
         "sizeAbsolute.x": 512.001,
         "sizeAbsolute.y": 512.001,
-        "translation.x": 99.08388200000002,
-        "translation.y": 235.7832794189453,
+        "translation.x": {
+          "0": { value: 99.08388200000002, edited: true },
+          "5883": { value: 99.502 }
+        },
+        "translation.y": {
+          "0": { value: 298, edited: true },
+          "5883": { value: 298.664 }
+        },
         "style.zIndex": 5,
         "scale.x": 0.236,
         "scale.y": 0.194,
