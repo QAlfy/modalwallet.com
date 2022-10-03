@@ -302,6 +302,9 @@ body.is-instant:after {
   --alignment: center;
   --flex-alignment: center;
 }
+.container .card {
+  color:#fff;
+}
 .container.style1 > .wrapper > .inner {
   padding: var(--padding-vertical) var(--padding-horizontal);
   --gutters: 5rem;

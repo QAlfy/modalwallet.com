@@ -1097,12 +1097,12 @@
     stagger: 125,
     replay: false,
   });
-  onvisible.add(".intro.card1", {
-    style: "fade-left",
+  onvisible.add(".screen.intro .card1", {
+    style: "flip-backward",
     speed: 1000,
-    intensity: 2,
-    delay: 0,
+    intensity: 3,
+    delay: 500,
     stagger: 125,
-    replay: false,
+    replay: true,
   });
 })();
